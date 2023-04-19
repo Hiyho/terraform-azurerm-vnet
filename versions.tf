@@ -5,6 +5,12 @@ terraform {
     azurerm = {
       source  = "hashicorp/azurerm"
       version = ">= 3.11, < 4.0"
+      
     }
+    
   }
+
+}
+provider "azurerm" {
+  features {}
 }
